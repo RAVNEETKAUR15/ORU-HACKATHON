@@ -85,7 +85,7 @@ Phase 1 Discovery                    Phase 2 Prediction
 
 **Winner: Tuned Random Forest (V3)** with `max_depth=10`, `min_samples_leaf=2`, `min_samples_split=5`, `n_estimators=300`
 
-![Model Evolution](phase2_08_model_comparison.png)
+![Model Evolution](assets/phase2_08_model_comparison.png)
 
 ---
 
@@ -95,7 +95,7 @@ Phase 1 Discovery                    Phase 2 Prediction
 
 The gap between required run rate and current run rate drives **44% of prediction importance**. Not individual shots, not the over number - the cumulative pressure state.
 
-![Feature Importance](phase2_06_feature_importance_tuned.png)
+![Feature Importance](assets/phase2_06_feature_importance_tuned.png)
 
 ### 2. Individual Balls Don't Matter - Match State Does
 
@@ -105,7 +105,7 @@ The gap between required run rate and current run rate drives **44% of predictio
 
 Phase 1 showed aggression increased everywhere. Phase 2 asks: **where does it actually help?**
 
-![Strategy Matrix](phase2_04_aggression_strategy_matrix.png)
+![Strategy Matrix](assets/phase2_04_aggression_strategy_matrix.png)
 
 | Phase | Pressure | Boundary Effect on Win Probability | Recommendation |
 |-------|----------|-----------------------------------|----------------|
@@ -119,13 +119,13 @@ Phase 1 showed aggression increased everywhere. Phase 2 asks: **where does it ac
 
 ### 4. Win Probability in Action - Two Real Matches
 
-![Win Probability Comparison](phase2_07_win_prob_comparison.png)
+![Win Probability Comparison](assets/phase2_07_win_prob_comparison.png)
 
 The model tracks the drama ball-by-ball. Every wicket (red lines) causes a probability drop. The winning chase shows a team that recovered from multiple crises. The losing chase shows steady decline as wickets fell.
 
 ### 5. The Model Is Honest About Uncertainty
 
-![Error Analysis](phase2_05_error_analysis.png)
+![Error Analysis](assets/phase2_05_error_analysis.png)
 
 - **99.3% accurate** in death overs when a team is well ahead - the outcome is nearly decided
 - **69% accurate** in close powerplay matches - these are genuinely unpredictable
@@ -142,7 +142,7 @@ The model tracks the drama ball-by-ball. Every wicket (red lines) causes a proba
 - **Recall: 0.712** - catches 71.2% of winning situations
 - **The model makes 1.73× more safe mistakes than dangerous ones** - correct behavior for a strategy tool
 
-![Confusion Matrix](phase2_09_confusion_matrix.png)
+![Confusion Matrix](assets/phase2_09_confusion_matrix.png)
 
 ---
 
