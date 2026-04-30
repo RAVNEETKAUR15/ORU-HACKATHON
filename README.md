@@ -95,7 +95,7 @@ ORU-HACKATHON/
 ├── Phase 1/
 │   ├── IPL_Analysis.ipynb       ← Phase 1 analysis notebook
 │   ├── README.md                ← Phase 1 documentation
-│   └── *.png                    ← 12 visualization plots
+│   └── assets/                  ← 12 visualization plots
 └── Phase 2/
     ├── Phase 2.ipynb            ← Phase 2 modeling notebook
     ├── README.md                ← Phase 2 documentation
@@ -103,7 +103,7 @@ ORU-HACKATHON/
     ├── ipl_chase_model.pkl      ← Trained Random Forest model
     ├── requirements.txt         ← Python dependencies
     ├── IPL_Presentation.pptx    ← Final presentation
-    └── *.png                    ← 9 analysis plots
+    └── assets/                  ← 9 analysis plots
 ```
 
 ---
