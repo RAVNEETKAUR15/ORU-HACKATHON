@@ -12,8 +12,8 @@
 
 | Phase | Question | Method | Key Finding |
 |-------|----------|--------|-------------|
-| [**Phase 1**](Phase%201/) | How has IPL batting evolved over 18 seasons? | Descriptive analytics | Aggression doubled (sixes: 9→18/match) but dismissals stayed flat at ~12 — the "Free Lunch" |
-| [**Phase 2**](Phase%202/) | Is the aggression free lunch real? When should teams attack vs defend? | Predictive modeling (Random Forest Classifier) | Aggression helps in death overs (+3.5%) but **hurts** in the powerplay (-10.9%) |
+| [**Phase_1**](Phase%201/) | How has IPL batting evolved over 18 seasons? | Descriptive analytics | Aggression doubled (sixes: 9→18/match) but dismissals stayed flat at ~12 — the "Free Lunch" |
+| [**Phase_2**](Phase%202/) | Is the aggression free lunch real? When should teams attack vs defend? | Predictive modeling (Random Forest Classifier) | Aggression helps in death overs (+3.5%) but **hurts** in the powerplay (-10.9%) |
 
 ### The Answer
 
@@ -43,7 +43,7 @@
 
 ---
 
-## Phase 1: From Dots to Damage
+## Phase_1: From Dots to Damage
 
 **Question:** How has IPL batting changed over 18 seasons?
 
@@ -54,11 +54,11 @@
 - Dismissals per match stayed flat at ~12
 - Aggression Index (Boundary% + Six% − Dot%) increased steadily
 
-📁 [View Phase 1 →](Phase%201/)
+📁 [View Phase_1 →](Phase%201/)
 
 ---
 
-## Phase 2: When Should IPL Teams Attack?
+## Phase_2: When Should IPL Teams Attack?
 
 **Question:** Given a specific chase situation, should a team attack or defend?
 
@@ -71,7 +71,7 @@
 - Precision: 81.1% — when the model says "attack," it's right 81/100 times
 - The model makes 1.73× more safe mistakes than dangerous ones
 
-📁 [View Phase 2 →](Phase%202/)
+📁 [View Phase_2 →](Phase%202/)
 
 🚀 [Try the Live Dashboard →](https://iplphase2chasestrategy.streamlit.app)
 
@@ -92,13 +92,13 @@
 ```
 ORU-HACKATHON/
 ├── README.md                    ← You are here
-├── Phase 1/
-│   ├── IPL_Analysis.ipynb       ← Phase 1 analysis notebook
-│   ├── README.md                ← Phase 1 documentation
+├── Phase_1/
+│   ├── IPL_Analysis.ipynb       ← Phase_1 analysis notebook
+│   ├── README.md                ← Phase_1 documentation
 │   └── assets/                  ← 12 visualization plots
-└── Phase 2/
-    ├── Phase 2.ipynb            ← Phase 2 modeling notebook
-    ├── README.md                ← Phase 2 documentation
+└── Phase_2/
+    ├── Phase_2.ipynb            ← Phase_2 modeling notebook
+    ├── README.md                ← Phase_2 documentation
     ├── app.py                   ← Streamlit dashboard
     ├── ipl_chase_model.pkl      ← Trained Random Forest model
     ├── requirements.txt         ← Python dependencies
