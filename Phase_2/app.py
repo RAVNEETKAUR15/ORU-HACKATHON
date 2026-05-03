@@ -2,6 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 import plotly.graph_objects as go
+import os
 
 # ── Page Config ──
 st.set_page_config(
@@ -230,7 +231,8 @@ st.markdown("""
 # ── Load Model ──
 @st.cache_resource
 def load_model():
-    return joblib.load('ipl_chase_model.pkl')
+    model_path = os.path.join(os.path.dirname(__file__), 'ipl_chase_model.pkl')
+    return joblib.load(model_path)
 
 model = load_model()
 
