@@ -2,7 +2,7 @@
 
 **From Descriptive Insights to Predictive Strategy: A Two-Phase Analysis of 18 Seasons of IPL Cricket**
 
-🏆 **Winner — ORU IPL Analytics Hackathon 2025**
+🏆 **Winner — ORU IPL Analytics Hackathon 2026**
 
 🚀 **[Live Dashboard →](https://iplphase2chasestrategy.streamlit.app)**
 
